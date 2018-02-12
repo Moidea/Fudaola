@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    border:0;
+    display: inline-block;
+    max-width: 100%;
+}
+.main-bg{
+    background: #cd1345 url("../img/bg.png") no-repeat 0 0;
+    background-size: 100% auto;
+    padding:60px 20px 10px 20px;
+}
+.qingshu{
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width:100%;
+    z-index:999;
+}
+.board{
+    position: relative;
+    margin-top: 18%;
+}
+.mycanvas{
+    padding: 0;
+    margin: 0;
+    border:0;
+    position: absolute;
+    left: 17px;
+    top: 17px;
+    z-index:99;
+}
+.raduis{
+    position: fixed;
+    left: 10px;
+    top: 40%;
+    width: 36px;
+    z-index:999;
+}
+.raduis .item{
+    width: 36px;
+    height: 37px;
+    margin-bottom: 10px;
+    background-size: 36px auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.raduis .cu{  background-image: url("../img/cu.png");  }
+.raduis .cu.active{  background-image: url("../img/cu-h.png");  }
+.raduis .zhong{  background-image: url("../img/zhong.png");  }
+.raduis .zhong.active{  background-image: url("../img/zhong-h.png");  }
+.raduis .xi{  background-image: url("../img/xi.png");  }
+.raduis .xi.active{  background-image: url("../img/xi-h.png");  }
+
+.btns{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 5%;
+    text-align: center;
+}
+.btns img{
+    width:120px;
+    margin-right: 10px;
+}
+.huabi{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -20px;
+    z-index:99;
+    text-align: center;
+}
+.huabi .item{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+.huabi .item.active i{
+    display: block;
+    position: absolute;
+    top: -34px;
+    left: 50%;
+    margin-left: -14px;
+    width: 28px;
+    height: 34px;
+    z-index:99;
+    background: url("../img/huabi.png") no-repeat 0 0;
+    background-size: 28px auto;
+}
+.huabi img{
+    width: 28px;
+}
+.prev{
+    position: fixed;
+    right: 0;
+    width:30px;
+    background-color: #fa2a76;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    bottom: 20%;
+    text-align: center;
+    z-index:99;
+    border-radius: 4px;
+}
