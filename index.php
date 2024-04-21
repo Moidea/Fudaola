@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>福到啦 - 在线刷福支付宝集齐五福的技巧</title>
-		<meta name="author" content="罗格Roogle" />
+		<meta name="author" content="" />
 		<meta name="description" content="福到了的创意来自于V2ex社区，之前看过什么网传支付宝万能福，支付宝集福技巧等瞎说的文章，反正我自己一直没有敬业福，今天正好闲来无聊就用世界上最黄的语言写了几行代码实现了来福的功能，方便给手边没有福的人，解决少数人的支付宝集五福的难题，就问你福不福，反正我福！"/>
 		<style>
 		body{margin:0;border:0}
@@ -41,7 +41,6 @@
 		<div class="info">
 			<p>活动时间：2月1日-2月15日</p>
 			<p>每日使用支付宝扫描福可参与年度5亿瓜分</p>
-			<p>本人出售自己的大量的福加微信angellcawn</p>
 			<p>最终解释权归支付宝所有</p>
 		</div>
 	</div>
